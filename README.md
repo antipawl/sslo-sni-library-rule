@@ -9,9 +9,6 @@ This utility works on BIG-IP 14.1 and above, SSL Orchestrator 5.x and above.
 ### How to install 
 - Download the iRule to the F5 BIG-IP:
 
-  `curl -k https://raw.githubusercontent.com/kevingstewart/sslo_nuke_delete/main/sslo_nuke_delete.sh -o sslo_nuke_delete.sh`
-  
-  `chmod +x sslo_nuke_delete.sh`
-  
-  `./sslo_nuke_delete.sh`
+  `curl -k https://raw.githubusercontent.com/kevingstewart/sslo-sni-library-rule/main/library-rule.tcl`
+
 
