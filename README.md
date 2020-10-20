@@ -9,6 +9,6 @@ This utility works on BIG-IP 14.1 and above, SSL Orchestrator 5.x and above.
 ### How to install 
 - Download the iRule to the F5 BIG-IP:
 
-  `curl -k https://raw.githubusercontent.com/kevingstewart/sslo-sni-library-rule/main/library-rule.tcl`
+  `echo -e "ltm rule /Common/library-rule-4 {\n`curl -k https://raw.githubusercontent.com/kevingstewart/sslo-sni-library-rule/main/library-rule.tcl`\n}" > /var/tmp/library-rule & tmsh load sys config merge file /var/tmp/library-rule`
 
 
