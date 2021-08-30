@@ -1,5 +1,5 @@
 # F5 SSL Orchestrator SNI Library iRule
-A PROC iRuel function to retrieve the Server Name Indication (SNI) value from TLS Client Hello.
+A PROC iRule function to retrieve the Server Name Indication (SNI) value from TLS Client Hello.
 
 [![Releases](https://img.shields.io/github/v/release/kevingstewart/sslo-sni-library-rule.svg)](https://github.com/kevingstewart/sslo-sni-library-rule/releases)
 
